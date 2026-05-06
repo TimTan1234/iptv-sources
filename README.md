@@ -27,10 +27,13 @@ EPG Sources are from:
 - [112114.xyz](https://diyp1.112114.xyz)
 - [epg.51zmt.top:8000](http://epg.51zmt.top:8000/)
 
-See <https://m3u.ibert.me> to get more.
+See your deployed GitHub Pages URL to get more.
 
 ## Deploy by yourself
 
+- Fork this repository first, then open your fork's `Settings -> Pages`.
+- Set the Pages source to the `gh-pages` branch and `/ (root)`.
+- The existing GitHub Actions workflows will build `m3u/` and publish it to `gh-pages` automatically.
 - [How to deploy with GitHub Pages](https://github.com/HerbertHe/iptv-sources/discussions/35)
 - [How to deploy with docker](https://github.com/HerbertHe/iptv-sources/discussions/36)
 - [How to deploy with nodejs](https://github.com/HerbertHe/iptv-sources/discussions/37)

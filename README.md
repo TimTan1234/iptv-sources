@@ -34,6 +34,8 @@ See your deployed GitHub Pages URL to get more.
 - Fork this repository first, then open your fork's `Settings -> Pages`.
 - Set the Pages source to the `gh-pages` branch and `/ (root)`.
 - The existing GitHub Actions workflows will build `m3u/` and publish it to `gh-pages` automatically.
+- For Vercel, the repo now includes a `vercel.json` config and a static build step that renders the generated markdown pages to HTML.
+- Vercel will host the static playlist site; the live Koa server routes like `/api/check` are not part of the Vercel deployment.
 - [How to deploy with GitHub Pages](https://github.com/HerbertHe/iptv-sources/discussions/35)
 - [How to deploy with docker](https://github.com/HerbertHe/iptv-sources/discussions/36)
 - [How to deploy with nodejs](https://github.com/HerbertHe/iptv-sources/discussions/37)

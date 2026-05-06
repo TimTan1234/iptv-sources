@@ -1,0 +1,14 @@
+{
+  "buildCommand": "yarn vercel:build",
+  "outputDirectory": "m3u",
+  "rewrites": [
+    {
+      "source": "/list/:slug",
+      "destination": "/list/:slug.html"
+    },
+    {
+      "source": "/list/:slug/",
+      "destination": "/list/:slug.html"
+    }
+  ]
+}
